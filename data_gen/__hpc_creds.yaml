@@ -1,0 +1,15 @@
+container_name: datagen
+container_tag: latest
+docker_file: Dockerfile
+hpc_mn: 10.32.118.9
+hpc_mn_project_base: /home_cu/u230292/Projects
+lab: aghm
+# registry_host: 10.32.118.10:5000
+registry_host: DT-IW-20-028:5000
+ssh_creds:
+  port: '44100'
+  ssh_key_name: hpc_u230292
+  ssh_path: ~/.ssh
+  user: u230292
+user: u230292
+workspace_dir: data_gen
