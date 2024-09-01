@@ -1,0 +1,4 @@
+Experiment date and time: 2024-06-15_151108
+Noise level: 0
+Random seed: 531
+Noise Case: 1
