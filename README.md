@@ -11,6 +11,7 @@ Repository for the paper "AutoML-based workflow for reliable DOE selection and r
 - [Usage](#usage)
   - [AutoML Module](#automl-module)
   - [Data Generation Module](#data-generation-module)
+  - [Data sets]
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
@@ -104,6 +105,10 @@ data_gen/
 ### Data Generation Module
 
 - **Data Generation**: The purpose of the `datasets_generation_final_forHPC.py` script is to automate the generation of datasets for machine learning experiments, particularly in high-performance computing (HPC) environments. The script likely handles the creation and preprocessing of datasets according to specified configurations, preparing them for subsequent machine-learning tasks. To use this script, ensure that the necessary configurations are set, and then execute the script. It will generate the datasets as defined and save them to the appropriate directories, ready for use in various machine learning experiments, especially when batch processing on HPC clusters is required.
+
+### Data sets
+
+- This project contains multiple database folders, each containing sets of model base files (`Modelbase`). These databases and model files are used for experiments and data analysis, with different noise levels and multiple sets of repeated experimental data. Only a complete example dataset has been uploaded to this repository due to the number of files and size considerations. Any dataset presented in this work can be generated using the provided code.
 
 ## Configuration
 
